@@ -17,11 +17,11 @@ tool = TavilySearch(
 
 model_with_tools = model.bind_tools([tool])
 
-question = "香港大火调查进展如何"
+question = "湖南衡阳天气怎么样"
 
 #定义消息列表 
 messages = [
-    SystemMessage(content="你是一个新闻搜索专家，请根据用户的问题搜索相关新闻"),
+    SystemMessage(content="你是一个天气询问专家，请根据用户的问题搜索相关地区天气"),
     HumanMessage(content=question)
 ]
 
