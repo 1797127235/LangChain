@@ -28,7 +28,6 @@ messages = [
 ai_msg = model_with_tools.invoke(messages)
 messages.append(ai_msg)
 
-
 tool_message = []
 
 for tool_call in ai_msg.tool_calls:
