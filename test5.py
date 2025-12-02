@@ -20,7 +20,7 @@ add_tool = StructuredTool.from_function(
 
     '''
         add_tool最后一个参数告诉LangChain,我的函数会返回两个值，请把第一个
-        值作为文本喂给LLM，第二个值作为工件存起来不要给LLM看
+        值作为文本喂给LLM,第二个值作为工件存起来不要给LLM看
     '''
 
 
